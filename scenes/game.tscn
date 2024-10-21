@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://of387ndq821c"]
+[gd_scene load_steps=10 format=3 uid="uid://of387ndq821c"]
 
 [ext_resource type="PackedScene" uid="uid://drctcoib7d3wp" path="res://scenes/player.tscn" id="1_8penj"]
 [ext_resource type="Texture2D" uid="uid://t1qpjkckrer5" path="res://assets/Tileset/Dungeon Platformer Tile Set.png" id="2_mv21m"]
 [ext_resource type="PackedScene" uid="uid://bmiqf3itrg6o0" path="res://scenes/platform.tscn" id="3_tbba3"]
+[ext_resource type="PackedScene" uid="uid://b3fsqqjm5p83s" path="res://scenes/flag.tscn" id="4_a86mt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yex6k"]
 texture = ExtResource("2_mv21m")
@@ -231,3 +232,9 @@ libraries = {
 "": SubResource("AnimationLibrary_nwva2")
 }
 autoplay = "move"
+
+[node name="Platform3" parent="." instance=ExtResource("3_tbba3")]
+position = Vector2(219, -10)
+
+[node name="Flag" parent="." instance=ExtResource("4_a86mt")]
+position = Vector2(226, -23)
