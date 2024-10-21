@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://byuub4em64jgf" path="res://assets/dungeon platforms.png" id="1_grf43"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_62yb2"]
-size = Vector2(34, 10)
+size = Vector2(26, 10)
 
 [node name="Platform" type="AnimatableBody2D"]
 
