@@ -1,0 +1,51 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1729524712
+icon.svg::CompressedTexture2D::8381242594615033358::1728916200::1729524714::1::::<><>::
+::res://assets/::1729524020
+dungeon platforms.png::CompressedTexture2D::4113458141680481741::1729506045::1729524714::1::::<><>::
+::res://assets/Animations/::1729423460
+::res://assets/Animations/Flags/::1729423460
+::res://assets/Animations/Flags/Raised Flag/::1729524020
+Raised Flag - Sprite sheet.png::CompressedTexture2D::3118018237429486797::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Flags/Unraised Flag/::1729423460
+::res://assets/Animations/Flying Enemy/::1729524020
+Flying Enemy - Death.png::CompressedTexture2D::4950064046462216056::1729423460::1729524714::1::::<><>::
+Flying Enemy - Move.png::CompressedTexture2D::3679757588377953946::1729423460::1729524714::1::::<><>::
+Flying Enemy - Sprite sheet.png::CompressedTexture2D::8553263230224326001::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Jump Pad/::1729524020
+Jump Pad - Sprite sheet.png::CompressedTexture2D::2006128390009858616::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Player/::1729524020
+Player - Climb.png::CompressedTexture2D::6708390408330377185::1729423460::1729524714::1::::<><>::
+Player - Death.png::CompressedTexture2D::3324688772947815410::1729423460::1729524714::1::::<><>::
+Player - Idle.png::CompressedTexture2D::7794708418731275908::1729423460::1729524714::1::::<><>::
+Player - Jump.png::CompressedTexture2D::8862993805406604383::1729423460::1729524714::1::::<><>::
+Player - Move.png::CompressedTexture2D::4309077417363208015::1729423460::1729524714::1::::<><>::
+Player - Sprite sheet.png::CompressedTexture2D::7965241312387877930::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Sawblades/::1729423460
+::res://assets/Animations/Sawblades/Big Sawblades/::1729524020
+Big Sawblades.png::CompressedTexture2D::1006781153062519269::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Sawblades/Small Sawblades/::1729524020
+Small Sawblades - Sprite sheet.png::CompressedTexture2D::2731449749144471638::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Walking Enemy/::1729524020
+Walking Enemy - Attack.png::CompressedTexture2D::2112395354982426391::1729423460::1729524714::1::::<><>::
+Walking Enemy - Death.png::CompressedTexture2D::4980294528979240961::1729423460::1729524714::1::::<><>::
+Walking Enemy - Idle.png::CompressedTexture2D::8901407724008866806::1729423460::1729524714::1::::<><>::
+Walking Enemy - Jump.png::CompressedTexture2D::9179696210580936620::1729423460::1729524714::1::::<><>::
+Walking Enemy - Move.png::CompressedTexture2D::5929922479612579123::1729423460::1729524714::1::::<><>::
+Walking Enemy - Sprite sheet.png::CompressedTexture2D::6251686424429492308::1729423460::1729524714::1::::<><>::
+::res://assets/Animations/Walking NPC/::1729524020
+Walking NPC - Idle.png::CompressedTexture2D::4429459180064733901::1729423460::1729524714::1::::<><>::
+Walking NPC - Move.png::CompressedTexture2D::563460290440290708::1729423460::1729524714::1::::<><>::
+Walking NPC - Sprite sheet.png::CompressedTexture2D::6932462362810984618::1729423460::1729524714::1::::<><>::
+::res://assets/Tileset/::1729524021
+16x16 Tileset.png::CompressedTexture2D::4240017256355020906::1729423443::1729524715::1::::<><>::
+Dungeon Platformer Tile Set.png::CompressedTexture2D::1388260597784109400::1729500689::1729524714::1::::<><>::
+::res://assets/Tileset/14-TileSets/::1729524020
+Decorations (32x32).png::CompressedTexture2D::13105574129043237::1729499495::1729524714::1::::<><>::
+Terrain (32x32).png::CompressedTexture2D::226570927224792028::1729499495::1729524714::1::::<><>::
+::res://scenes/::1729524305
+game.tscn::PackedScene::994726407687753610::1729524305::0::1::::<><>::uid://drctcoib7d3wp::::res://scenes/player.tscn<>uid://t1qpjkckrer5::::res://assets/Tileset/Dungeon Platformer Tile Set.png<>uid://bmiqf3itrg6o0::::res://scenes/platform.tscn
+platform.tscn::PackedScene::3246183714134258065::1729524280::0::1::::<><>::uid://byuub4em64jgf::::res://assets/dungeon platforms.png
+player.tscn::PackedScene::8357759090658032419::1729524280::0::1::::<><>::uid://djb2ydocg0wjs::::res://assets/Animations/Player/Player - Idle.png<>res://scripts/player.gd
+::res://scripts/::1729524305
+player.gd::GDScript::-1::1729524305::0::1::::<>CharacterBody2D<>::

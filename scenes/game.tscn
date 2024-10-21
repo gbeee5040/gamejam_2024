@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://of387ndq821c"]
+[gd_scene load_steps=10 format=3 uid="uid://of387ndq821c"]
 
 [ext_resource type="PackedScene" uid="uid://drctcoib7d3wp" path="res://scenes/player.tscn" id="1_8penj"]
 [ext_resource type="Texture2D" uid="uid://t1qpjkckrer5" path="res://assets/Tileset/Dungeon Platformer Tile Set.png" id="2_mv21m"]
 [ext_resource type="PackedScene" uid="uid://bmiqf3itrg6o0" path="res://scenes/platform.tscn" id="3_tbba3"]
+[ext_resource type="PackedScene" uid="uid://b3fsqqjm5p83s" path="res://scenes/flag.tscn" id="4_a86mt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yex6k"]
 texture = ExtResource("2_mv21m")
@@ -168,9 +169,39 @@ sources/0 = SubResource("TileSetAtlasSource_yex6k")
 
 [sub_resource type="Animation" id="Animation_17p8t"]
 resource_name = "move"
+length = 1.5
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(193, 21), Vector2(253, 21)]
+}
+
+[sub_resource type="Animation" id="Animation_c2rk3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(193, 21)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_nwva2"]
 _data = {
+"RESET": SubResource("Animation_c2rk3"),
 "move": SubResource("Animation_17p8t")
 }
 
@@ -200,3 +231,10 @@ position = Vector2(193, 21)
 libraries = {
 "": SubResource("AnimationLibrary_nwva2")
 }
+autoplay = "move"
+
+[node name="Platform3" parent="." instance=ExtResource("3_tbba3")]
+position = Vector2(219, -10)
+
+[node name="Flag" parent="." instance=ExtResource("4_a86mt")]
+position = Vector2(226, -23)
