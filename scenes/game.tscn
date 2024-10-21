@@ -231,3 +231,6 @@ libraries = {
 "": SubResource("AnimationLibrary_nwva2")
 }
 autoplay = "move"
+
+[node name="Platform3" parent="." instance=ExtResource("3_tbba3")]
+position = Vector2(71, 3)
