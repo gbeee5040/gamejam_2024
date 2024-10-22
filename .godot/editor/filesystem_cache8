@@ -1,9 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729528296
+::res://::1729608239
 icon.svg::CompressedTexture2D::8381242594615033358::1728916200::1729524714::1::::<><>::
-::res://assets/::1729524714
+::res://assets/::1729568119
 dungeon platforms.png::CompressedTexture2D::4113458141680481741::1729506045::1729524714::1::::<><>::
-::res://assets/Animations/::1729423460
+::res://assets/2D Puzzle Elements/::1729568119
+Spikes.png::CompressedTexture2D::5684702752063223666::1729568119::1729568119::1::::<><>::
+::res://assets/2D Puzzle Elements/Door/::1729568119
+Door_Black.png::CompressedTexture2D::6649561947218601546::1729568119::1729568119::1::::<><>::
+Door_Open.png::CompressedTexture2D::7434058496463201519::1729568119::1729568119::1::::<><>::
+Door_White.png::CompressedTexture2D::1837525519390206868::1729568119::1729568119::1::::<><>::
+::res://assets/2D Puzzle Elements/Switch/::1729568119
+Blue_To_Red.png::CompressedTexture2D::8406135606487816990::1729568119::1729568119::1::::<><>::
+Color_Blocks.png::CompressedTexture2D::2121389394913881066::1729568119::1729568119::1::::<><>::
+Purple_To_Yellow.png::CompressedTexture2D::3160675757510901540::1729568119::1729568119::1::::<><>::
+Red_To_Blue.png::CompressedTexture2D::6510226735462091346::1729568119::1729568119::1::::<><>::
+Yellow_To_Purple.png::CompressedTexture2D::7082702882360116883::1729568119::1729568119::1::::<><>::
+::res://assets/Animations/::1729608239
+Opening (46x56).png::CompressedTexture2D::2211596939796688308::1729608218::1729608239::1::::<><>::
 ::res://assets/Animations/Flags/::1729423460
 ::res://assets/Animations/Flags/Raised Flag/::1729524714
 Raised Flag - Sprite sheet.png::CompressedTexture2D::3118018237429486797::1729423460::1729524714::1::::<><>::
@@ -37,17 +50,29 @@ Walking Enemy - Sprite sheet.png::CompressedTexture2D::6251686424429492308::1729
 Walking NPC - Idle.png::CompressedTexture2D::4429459180064733901::1729423460::1729524714::1::::<><>::
 Walking NPC - Move.png::CompressedTexture2D::563460290440290708::1729423460::1729524714::1::::<><>::
 Walking NPC - Sprite sheet.png::CompressedTexture2D::6932462362810984618::1729423460::1729524714::1::::<><>::
+::res://assets/Pixel Game Fonts/::1729608239
+PixeloidSans-mLxMm.ttf::FontFile::3683940241001495855::1729567003::1729567003::1::::<><>::
+PixelOperator8.ttf::FontFile::937425046230301040::1729567047::1729567047::1::::<><>::
 ::res://assets/Tileset/::1729524715
 16x16 Tileset.png::CompressedTexture2D::4240017256355020906::1729423443::1729524715::1::::<><>::
 Dungeon Platformer Tile Set.png::CompressedTexture2D::1388260597784109400::1729500689::1729524714::1::::<><>::
 ::res://assets/Tileset/14-TileSets/::1729524714
 Decorations (32x32).png::CompressedTexture2D::13105574129043237::1729499495::1729524714::1::::<><>::
 Terrain (32x32).png::CompressedTexture2D::226570927224792028::1729499495::1729524714::1::::<><>::
-::res://scenes/::1729528285
-flag.tscn::PackedScene::6625616452710097365::1729528285::0::1::::<><>::res://scripts/flag.gd<>uid://bkonkmm0amacj::::res://assets/Animations/Flags/Raised Flag/Raised Flag - Sprite sheet.png
-game.tscn::PackedScene::994726407687753610::1729528285::0::1::::<><>::uid://drctcoib7d3wp::::res://scenes/player.tscn<>uid://t1qpjkckrer5::::res://assets/Tileset/Dungeon Platformer Tile Set.png<>uid://bmiqf3itrg6o0::::res://scenes/platform.tscn<>uid://c1nq612ywhlrp::::res://scenes/flag.tscn
-platform.tscn::PackedScene::3246183714134258065::1729527597::0::1::::<><>::uid://byuub4em64jgf::::res://assets/dungeon platforms.png
-player.tscn::PackedScene::8357759090658032419::1729527597::0::1::::<><>::uid://djb2ydocg0wjs::::res://assets/Animations/Player/Player - Idle.png<>res://scripts/player.gd
-::res://scripts/::1729526954
-flag.gd::GDScript::-1::1729526954::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1729526954::0::1::::<>CharacterBody2D<>::
+::res://scenes/::1729608109
+door.tscn::PackedScene::8297749037778696172::1729608109::0::1::::<><>::res://scripts/door.gd<>uid://dd6d4fbuqtm8f::::res://assets/2D Puzzle Elements/Door/Door_Open.png
+flag.tscn::PackedScene::6625616452710097365::1729608109::0::1::::<><>::res://scripts/flag.gd<>uid://bkonkmm0amacj::::res://assets/Animations/Flags/Raised Flag/Raised Flag - Sprite sheet.png
+killzone.tscn::PackedScene::9193589103496620222::1729608109::0::1::::<><>::res://scripts/killzone.gd
+menu.tscn::PackedScene::9146052921191833103::1729608109::0::1::::<><>::res://scripts/menu.gd<>uid://bsqr7s6dxo7ff::::res://assets/Pixel Game Fonts/PixeloidSans-mLxMm.ttf<>uid://t1qpjkckrer5::::res://assets/Tileset/Dungeon Platformer Tile Set.png
+platform.tscn::PackedScene::3246183714134258065::1729608109::0::1::::<><>::uid://byuub4em64jgf::::res://assets/dungeon platforms.png
+player.tscn::PackedScene::8357759090658032419::1729608109::0::1::::<><>::uid://djb2ydocg0wjs::::res://assets/Animations/Player/Player - Idle.png<>res://scripts/player.gd<>uid://bnmrex6useona::::res://assets/Animations/Player/Player - Death.png<>uid://dyjkhikyniefv::::res://assets/Animations/Player/Player - Jump.png<>uid://b2nl41cwamqk2::::res://assets/Animations/Player/Player - Move.png
+::res://scenes/levels/::1729608109
+level1.tscn::PackedScene::994726407687753610::1729608109::0::1::::<><>::uid://drctcoib7d3wp::::res://scenes/player.tscn<>uid://t1qpjkckrer5::::res://assets/Tileset/Dungeon Platformer Tile Set.png<>uid://c1nq612ywhlrp::::res://scenes/flag.tscn<>uid://bmiqf3itrg6o0::::res://scenes/platform.tscn<>uid://d38pcmfecmsje::::res://scenes/killzone.tscn<>uid://bsqr7s6dxo7ff::::res://assets/Pixel Game Fonts/PixeloidSans-mLxMm.ttf<>uid://dqhqyj1i15b37::::res://scenes/door.tscn
+level2.tscn::PackedScene::9002364222978640252::1729608109::0::1::::<><>::uid://bsqr7s6dxo7ff::::res://assets/Pixel Game Fonts/PixeloidSans-mLxMm.ttf
+::res://scripts/::1729598641
+door.gd::GDScript::-1::1729598641::0::1::::<>Area2D<>::
+flag.gd::GDScript::-1::1729583316::0::1::::<>Area2D<>::
+global.gd::GDScript::-1::1729583021::0::1::::<>Node<>::
+killzone.gd::GDScript::-1::1729535295::0::1::::<>Area2D<>::
+menu.gd::GDScript::-1::1729597581::0::1::::<>Control<>::
+player.gd::GDScript::-1::1729535429::0::1::::<>CharacterBody2D<>::
